@@ -281,10 +281,11 @@ def api_docs():
 # SERVER STARTUP
 # ==============================================================================
 
+# IMPORTANT: Load movies when module is imported (required for Gunicorn)
+# This runs whether using 'python app.py' OR 'gunicorn app:app'
+load_movies()
+
 if __name__ == '__main__':
-    # Load movies at startup
-    load_movies()
-    
     # Production server configuration:
     # - host='0.0.0.0' allows external connections (required for cloud deployment)
     # - port=5000 is the default Flask port (can be overridden by PORT env variable)
@@ -292,3 +293,4 @@ if __name__ == '__main__':
     
     port = int(os.environ.get('PORT', 5000))  # Support PORT env variable (Render/Railway)
     app.run(host='0.0.0.0', port=port)
+
