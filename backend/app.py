@@ -30,11 +30,11 @@ CORS(app)  # Enable CORS for cross-origin requests
 # PATH CONFIGURATION (Production-Ready)
 # ==============================================================================
 
-# Get directory containing this script
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Get directory containing this script (resolves symlinks)
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 
-# C Engine directory (relative path - works on both Windows and Linux)
-C_ENGINE_DIR = os.path.join(SCRIPT_DIR, '..', 'c_engine')
+# C Engine directory - use realpath to resolve .. correctly
+C_ENGINE_DIR = os.path.realpath(os.path.join(SCRIPT_DIR, '..', 'c_engine'))
 
 # IMPORTANT: For Linux deployment, always use the Linux executable name
 # Compile with: gcc -o recommender recommender.c -lm
@@ -244,12 +244,19 @@ def get_movie(movie_id):
 def health_check():
     """
     Health check endpoint for monitoring.
-    Returns status, loaded movies count, and engine availability.
+    Returns status, loaded movies count, engine availability, and path debug info.
     """
     return jsonify({
         'status': 'healthy',
         'movies_loaded': len(all_movies),
-        'engine_ready': os.path.exists(RECOMMENDER_EXE)
+        'engine_ready': os.path.exists(RECOMMENDER_EXE),
+        'movies_file_exists': os.path.exists(MOVIES_FILE),
+        'debug': {
+            'script_dir': SCRIPT_DIR,
+            'c_engine_dir': C_ENGINE_DIR,
+            'movies_file': MOVIES_FILE,
+            'recommender_exe': RECOMMENDER_EXE
+        }
     })
 
 
