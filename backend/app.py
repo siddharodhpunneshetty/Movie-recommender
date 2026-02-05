@@ -60,6 +60,9 @@ def load_movies():
     """
     global all_movies, id_to_movie, name_to_movie
     
+    print(f"[STARTUP] Attempting to load movies from: {MOVIES_FILE}")
+    print(f"[STARTUP] File exists: {os.path.exists(MOVIES_FILE)}")
+    
     movies = []
     try:
         with open(MOVIES_FILE, 'r', encoding='utf-8') as f:
@@ -78,9 +81,11 @@ def load_movies():
                         id_to_movie[movie['id']] = movie
                         # Store lowercase title for case-insensitive search
                         name_to_movie[movie['title'].lower()] = movie
+        print(f"[STARTUP] Successfully loaded {len(movies)} movies")
     except FileNotFoundError:
-        # Log warning but don't crash - allows graceful startup
-        pass
+        print(f"[STARTUP] ERROR: Movies file not found at {MOVIES_FILE}")
+    except Exception as e:
+        print(f"[STARTUP] ERROR loading movies: {type(e).__name__}: {e}")
     
     all_movies = movies
     return movies
