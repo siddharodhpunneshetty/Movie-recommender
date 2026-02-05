@@ -265,6 +265,35 @@ def health_check():
     })
 
 
+@app.route('/debug/reload', methods=['GET'])
+def debug_reload():
+    """Debug endpoint: Reload movies and show file contents."""
+    result = {
+        'movies_file': MOVIES_FILE,
+        'file_exists': os.path.exists(MOVIES_FILE),
+        'first_lines': [],
+        'reload_count': 0,
+        'error': None
+    }
+    
+    try:
+        if os.path.exists(MOVIES_FILE):
+            with open(MOVIES_FILE, 'r', encoding='utf-8') as f:
+                # Read first 5 lines for debug
+                for i, line in enumerate(f):
+                    if i >= 5:
+                        break
+                    result['first_lines'].append(line.strip())
+        
+        # Try to reload movies
+        load_movies()
+        result['reload_count'] = len(all_movies)
+    except Exception as e:
+        result['error'] = f"{type(e).__name__}: {e}"
+    
+    return jsonify(result)
+
+
 @app.route('/api', methods=['GET'])
 def api_docs():
     """API documentation endpoint."""
