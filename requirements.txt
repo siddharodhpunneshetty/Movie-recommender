@@ -1,0 +1,14 @@
+# =============================================================================
+# Python Dependencies for Movie Recommender
+# =============================================================================
+# Install with: pip install -r requirements.txt
+# =============================================================================
+
+# Flask - Web framework for the API backend
+flask
+
+# Flask-CORS - Handle Cross-Origin Resource Sharing
+flask-cors
+
+# Gunicorn - Production WSGI server (required for Render/Railway)
+gunicorn

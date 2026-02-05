@@ -1,0 +1,500 @@
+1,The Shawshank Redemption,Drama,9.3
+2,The Godfather,Drama,9.2
+3,The Dark Knight,Action,9.0
+4,Pulp Fiction,Drama,8.9
+5,Schindler's List,Drama,9.0
+6,The Lord of the Rings: The Return of the King,Action,9.0
+7,Fight Club,Drama,8.8
+8,Forrest Gump,Drama,8.8
+9,Inception,Sci-Fi,8.8
+10,The Matrix,Sci-Fi,8.7
+11,Goodfellas,Drama,8.7
+12,The Empire Strikes Back,Sci-Fi,8.7
+13,One Flew Over the Cuckoo's Nest,Drama,8.7
+14,Interstellar,Sci-Fi,8.6
+15,City of God,Drama,8.6
+16,Se7en,Thriller,8.6
+17,The Silence of the Lambs,Thriller,8.6
+18,It's a Wonderful Life,Drama,8.6
+19,Life Is Beautiful,Drama,8.6
+20,Spirited Away,Animation,8.6
+21,Saving Private Ryan,Action,8.6
+22,The Green Mile,Drama,8.6
+23,Parasite,Thriller,8.5
+24,Leon: The Professional,Action,8.5
+25,The Usual Suspects,Thriller,8.5
+26,Harakiri,Drama,8.5
+27,The Lion King,Animation,8.5
+28,American History X,Drama,8.5
+29,The Pianist,Drama,8.5
+30,Terminator 2,Action,8.5
+31,Back to the Future,Sci-Fi,8.5
+32,Gladiator,Action,8.5
+33,The Departed,Thriller,8.5
+34,Whiplash,Drama,8.5
+35,The Prestige,Thriller,8.5
+36,Casablanca,Romance,8.5
+37,Alien,Sci-Fi,8.4
+38,Apocalypse Now,Drama,8.4
+39,Memento,Thriller,8.4
+40,Raiders of the Lost Ark,Action,8.4
+41,Django Unchained,Action,8.4
+42,The Shining,Horror,8.4
+43,WALL-E,Animation,8.4
+44,The Lives of Others,Drama,8.4
+45,Paths of Glory,Drama,8.4
+46,Sunset Boulevard,Drama,8.4
+47,Princess Mononoke,Animation,8.4
+48,Oldboy,Thriller,8.4
+49,Avengers: Infinity War,Action,8.4
+50,The Dark Knight Rises,Action,8.3
+51,Coco,Animation,8.3
+52,Your Name,Animation,8.3
+53,Aliens,Sci-Fi,8.3
+54,Joker,Drama,8.3
+55,Braveheart,Action,8.3
+56,Toy Story,Animation,8.3
+57,Amadeus,Drama,8.3
+58,Inglourious Basterds,Action,8.3
+59,Good Will Hunting,Drama,8.3
+60,3 Idiots,Comedy,8.3
+61,Requiem for a Dream,Drama,8.3
+62,Toy Story 3,Animation,8.3
+63,2001: A Space Odyssey,Sci-Fi,8.3
+64,Reservoir Dogs,Thriller,8.3
+65,Singin' in the Rain,Comedy,8.3
+66,Eternal Sunshine of the Spotless Mind,Romance,8.3
+67,The Hunt,Drama,8.3
+68,Lawrence of Arabia,Drama,8.3
+69,Full Metal Jacket,Drama,8.3
+70,A Clockwork Orange,Drama,8.3
+71,Snatch,Comedy,8.3
+72,Bicycle Thieves,Drama,8.3
+73,Taxi Driver,Drama,8.2
+74,Amelie,Romance,8.2
+75,Scarface,Drama,8.2
+76,The Sting,Comedy,8.2
+77,Heat,Thriller,8.2
+78,Metropolis,Sci-Fi,8.2
+79,Die Hard,Action,8.2
+80,Up,Animation,8.2
+81,The Great Dictator,Comedy,8.2
+82,Batman Begins,Action,8.2
+83,A Separation,Drama,8.2
+84,North by Northwest,Thriller,8.2
+85,The Wolf of Wall Street,Comedy,8.2
+86,Vertigo,Thriller,8.2
+87,Citizen Kane,Drama,8.2
+88,The Kid,Comedy,8.2
+89,M,Thriller,8.2
+90,Finding Nemo,Animation,8.1
+91,The Truman Show,Comedy,8.1
+92,There Will Be Blood,Drama,8.1
+93,No Country for Old Men,Thriller,8.1
+94,Shutter Island,Thriller,8.1
+95,Room,Drama,8.1
+96,The Sixth Sense,Thriller,8.1
+97,Gone Girl,Thriller,8.1
+98,Monty Python and the Holy Grail,Comedy,8.1
+99,Mad Max: Fury Road,Action,8.1
+100,The Grand Budapest Hotel,Comedy,8.1
+101,Blade Runner,Sci-Fi,8.1
+102,Blade Runner 2049,Sci-Fi,8.0
+103,Ex Machina,Sci-Fi,7.7
+104,Arrival,Sci-Fi,7.9
+105,The Martian,Sci-Fi,8.0
+106,Gravity,Sci-Fi,7.7
+107,District 9,Sci-Fi,7.9
+108,Edge of Tomorrow,Sci-Fi,7.9
+109,Looper,Sci-Fi,7.4
+110,Moon,Sci-Fi,7.9
+111,Annihilation,Sci-Fi,6.8
+112,Dune,Sci-Fi,8.0
+113,Tenet,Sci-Fi,7.3
+114,Minority Report,Sci-Fi,7.6
+115,Total Recall,Sci-Fi,7.5
+116,Source Code,Sci-Fi,7.5
+117,Oblivion,Sci-Fi,7.0
+118,Elysium,Sci-Fi,6.6
+119,Prometheus,Sci-Fi,7.0
+120,Avatar,Sci-Fi,7.8
+121,Star Wars A New Hope,Sci-Fi,8.6
+122,Return of the Jedi,Sci-Fi,8.3
+123,Star Trek,Sci-Fi,7.9
+124,E.T. the Extra-Terrestrial,Sci-Fi,7.8
+125,Close Encounters of the Third Kind,Sci-Fi,7.6
+126,The Terminator,Sci-Fi,8.0
+127,RoboCop,Sci-Fi,7.5
+128,Starship Troopers,Sci-Fi,7.2
+129,The Fifth Element,Sci-Fi,7.7
+130,War of the Worlds,Sci-Fi,6.5
+131,Independence Day,Sci-Fi,7.0
+132,Contact,Sci-Fi,7.4
+133,Gattaca,Sci-Fi,7.8
+134,A.I. Artificial Intelligence,Sci-Fi,7.2
+135,Sunshine,Sci-Fi,7.2
+136,Children of Men,Sci-Fi,7.9
+137,Her,Sci-Fi,8.0
+138,Coherence,Sci-Fi,7.2
+139,Primer,Sci-Fi,6.9
+140,Donnie Darko,Sci-Fi,8.0
+141,John Wick,Action,7.4
+142,John Wick Chapter 2,Action,7.5
+143,John Wick Chapter 3,Action,7.4
+144,Mission Impossible Fallout,Action,7.7
+145,Mission Impossible Ghost Protocol,Action,7.4
+146,The Bourne Identity,Action,7.9
+147,The Bourne Supremacy,Action,7.7
+148,The Bourne Ultimatum,Action,8.0
+149,Casino Royale,Action,8.0
+150,Skyfall,Action,7.8
+151,Spectre,Action,6.8
+152,No Time to Die,Action,7.3
+153,Top Gun Maverick,Action,8.2
+154,The Raid,Action,7.6
+155,The Raid 2,Action,8.0
+156,Kill Bill Vol. 1,Action,8.2
+157,Kill Bill Vol. 2,Action,8.0
+158,Mad Max Road Warrior,Action,7.6
+159,Fury,Action,7.6
+160,Black Hawk Down,Action,7.7
+161,The Rock,Action,7.4
+162,Con Air,Action,6.9
+163,Face Off,Action,7.2
+164,Speed,Action,7.2
+165,Lethal Weapon,Action,7.6
+166,Beverly Hills Cop,Action,7.3
+167,First Blood,Action,7.7
+168,Rambo First Blood Part II,Action,6.5
+169,Predator,Action,7.8
+170,Commando,Action,6.7
+171,The Expendables,Action,6.5
+172,300,Action,7.6
+173,Troy,Action,7.2
+174,Gladiator 2000,Action,8.5
+175,Kingdom of Heaven,Action,7.2
+176,The Last Samurai,Action,7.7
+177,Master and Commander,Action,7.4
+178,Pirates of the Caribbean,Action,8.0
+179,National Treasure,Action,6.9
+180,Indiana Jones Last Crusade,Action,8.2
+181,Superbad,Comedy,7.6
+182,The Hangover,Comedy,7.7
+183,Step Brothers,Comedy,6.9
+184,Anchorman,Comedy,7.2
+185,Bridesmaids,Comedy,6.8
+186,Knocked Up,Comedy,6.9
+187,The 40-Year-Old Virgin,Comedy,7.1
+188,Wedding Crashers,Comedy,7.0
+189,Dodgeball,Comedy,6.7
+190,Zoolander,Comedy,6.6
+191,Tropic Thunder,Comedy,7.1
+192,Pineapple Express,Comedy,6.9
+193,This Is the End,Comedy,6.6
+194,21 Jump Street,Comedy,7.2
+195,22 Jump Street,Comedy,7.0
+196,Neighbors,Comedy,6.3
+197,Game Night,Comedy,6.9
+198,The Nice Guys,Comedy,7.3
+199,In Bruges,Comedy,7.9
+200,Kiss Kiss Bang Bang,Comedy,7.5
+201,Hot Fuzz,Comedy,7.8
+202,Shaun of the Dead,Comedy,7.9
+203,The World's End,Comedy,7.0
+204,Scott Pilgrim vs the World,Comedy,7.5
+205,Juno,Comedy,7.4
+206,Little Miss Sunshine,Comedy,7.8
+207,Napoleon Dynamite,Comedy,6.9
+208,Ferris Bueller's Day Off,Comedy,7.8
+209,The Breakfast Club,Comedy,7.8
+210,Sixteen Candles,Comedy,7.0
+211,Weird Science,Comedy,6.6
+212,Clueless,Comedy,6.8
+213,Mean Girls,Comedy,7.0
+214,Legally Blonde,Comedy,6.3
+215,Pitch Perfect,Comedy,7.1
+216,Crazy Rich Asians,Comedy,6.9
+217,The Proposal,Comedy,6.7
+218,What We Do in the Shadows,Comedy,7.6
+219,Jojo Rabbit,Comedy,7.9
+220,The Grand Budapest Hotel 2,Comedy,8.1
+221,Moonrise Kingdom,Comedy,7.8
+222,The Royal Tenenbaums,Comedy,7.6
+223,Rushmore,Comedy,7.7
+224,Fantastic Mr. Fox,Comedy,7.9
+225,Isle of Dogs,Comedy,7.9
+226,Groundhog Day,Comedy,8.0
+227,Ghostbusters,Comedy,7.8
+228,Coming to America,Comedy,7.4
+229,Trading Places,Comedy,7.5
+230,Mrs. Doubtfire,Comedy,7.0
+231,The Notebook,Romance,7.8
+232,Pride and Prejudice,Romance,7.8
+233,10 Things I Hate About You,Romance,7.3
+234,Before Sunrise,Romance,8.1
+235,Before Sunset,Romance,8.1
+236,Before Midnight,Romance,8.0
+237,La La Land,Romance,8.0
+238,Titanic,Romance,7.9
+239,The Fault in Our Stars,Romance,7.7
+240,A Star Is Born,Romance,7.6
+241,Notting Hill,Romance,7.1
+242,Love Actually,Romance,7.6
+243,Crazy Stupid Love,Romance,7.4
+244,500 Days of Summer,Romance,7.7
+245,Silver Linings Playbook,Romance,7.7
+246,About Time,Romance,7.8
+247,The Time Traveler's Wife,Romance,7.1
+248,Me Before You,Romance,7.4
+249,The Proposal 2009,Romance,6.7
+250,Sweet Home Alabama,Romance,6.2
+251,The Lucky One,Romance,6.4
+252,Dear John,Romance,6.3
+253,Safe Haven,Romance,6.7
+254,The Best of Me,Romance,6.7
+255,A Walk to Remember,Romance,7.4
+256,The Vow,Romance,6.8
+257,Letters to Juliet,Romance,6.4
+258,Leap Year,Romance,6.4
+259,27 Dresses,Romance,6.1
+260,Maid in Manhattan,Romance,5.3
+261,Two Weeks Notice,Romance,6.1
+262,How to Lose a Guy in 10 Days,Romance,6.4
+263,What Happens in Vegas,Romance,6.1
+264,The Holiday,Romance,6.9
+265,You've Got Mail,Romance,6.7
+266,Sleepless in Seattle,Romance,6.8
+267,When Harry Met Sally,Romance,7.6
+268,Pretty Woman,Romance,7.1
+269,Dirty Dancing,Romance,7.0
+270,Grease,Romance,7.2
+271,Psycho,Horror,8.5
+272,The Exorcist,Horror,8.1
+273,The Texas Chain Saw Massacre,Horror,7.5
+274,Halloween,Horror,7.7
+275,A Nightmare on Elm Street,Horror,7.5
+276,Friday the 13th,Horror,6.4
+277,The Ring,Horror,7.1
+278,The Grudge,Horror,5.9
+279,It,Horror,7.3
+280,It Chapter Two,Horror,6.5
+281,Hereditary,Horror,7.3
+282,Midsommar,Horror,7.1
+283,Get Out,Horror,7.7
+284,Us,Horror,6.8
+285,A Quiet Place,Horror,7.5
+286,A Quiet Place Part II,Horror,7.3
+287,The Conjuring,Horror,7.5
+288,The Conjuring 2,Horror,7.3
+289,Insidious,Horror,6.8
+290,Insidious Chapter 2,Horror,6.6
+291,Sinister,Horror,6.8
+292,The Babadook,Horror,6.8
+293,It Follows,Horror,6.8
+294,The Witch,Horror,6.9
+295,The Lighthouse,Horror,7.4
+296,Don't Breathe,Horror,7.1
+297,Crawl,Horror,6.1
+298,Ready or Not,Horror,6.9
+299,Happy Death Day,Horror,6.5
+300,Smile,Horror,6.5
+301,Scream,Horror,7.4
+302,Scream 2,Horror,6.2
+303,Scream 3,Horror,5.5
+304,Scream 4,Horror,6.2
+305,I Know What You Did Last Summer,Horror,5.7
+306,Urban Legend,Horror,5.5
+307,Final Destination,Horror,6.7
+308,Final Destination 2,Horror,6.2
+309,Saw,Horror,7.6
+310,Saw II,Horror,6.6
+311,The Cabin in the Woods,Horror,7.0
+312,Tucker and Dale vs Evil,Horror,7.5
+313,Drag Me to Hell,Horror,6.6
+314,The Descent,Horror,7.2
+315,28 Days Later,Horror,7.5
+316,28 Weeks Later,Horror,7.0
+317,World War Z,Horror,7.0
+318,Train to Busan,Horror,7.6
+319,The Host,Horror,7.0
+320,REC,Horror,7.4
+321,Frozen,Animation,7.4
+322,Frozen II,Animation,6.8
+323,Moana,Animation,7.6
+324,Tangled,Animation,7.7
+325,Zootopia,Animation,8.0
+326,Encanto,Animation,7.2
+327,Big Hero 6,Animation,7.8
+328,Wreck-It Ralph,Animation,7.7
+329,Ralph Breaks the Internet,Animation,7.0
+330,Inside Out,Animation,8.1
+331,Soul,Animation,8.0
+332,Onward,Animation,7.4
+333,Luca,Animation,7.4
+334,Turning Red,Animation,7.0
+335,Ratatouille,Animation,8.0
+336,The Incredibles,Animation,8.0
+337,The Incredibles 2,Animation,7.6
+338,Monsters Inc,Animation,8.1
+339,Monsters University,Animation,7.2
+340,Cars,Animation,7.1
+341,Cars 2,Animation,6.1
+342,Cars 3,Animation,6.7
+343,Brave,Animation,7.1
+344,A Bug's Life,Animation,7.2
+345,Toy Story 2,Animation,7.9
+346,Toy Story 4,Animation,7.7
+347,How to Train Your Dragon,Animation,8.1
+348,How to Train Your Dragon 2,Animation,7.8
+349,How to Train Your Dragon 3,Animation,7.5
+350,Shrek,Animation,7.9
+351,Shrek 2,Animation,7.3
+352,Shrek the Third,Animation,6.1
+353,Shrek Forever After,Animation,6.3
+354,Kung Fu Panda,Animation,7.6
+355,Kung Fu Panda 2,Animation,7.2
+356,Kung Fu Panda 3,Animation,7.1
+357,Madagascar,Animation,6.9
+358,Madagascar Escape 2 Africa,Animation,6.6
+359,Despicable Me,Animation,7.6
+360,Despicable Me 2,Animation,7.3
+361,Despicable Me 3,Animation,6.2
+362,Minions,Animation,6.4
+363,The Secret Life of Pets,Animation,6.5
+364,Sing,Animation,7.1
+365,Sing 2,Animation,7.4
+366,The Croods,Animation,7.2
+367,The Croods A New Age,Animation,7.0
+368,Trolls,Animation,6.5
+369,Trolls World Tour,Animation,6.1
+370,The Boss Baby,Animation,6.3
+371,Zodiac,Thriller,7.7
+372,Prisoners,Thriller,8.1
+373,Sicario,Thriller,7.6
+374,Sicario Day of the Soldado,Thriller,6.0
+375,Wind River,Thriller,7.7
+376,Hell or High Water,Thriller,7.6
+377,Nightcrawler,Thriller,7.9
+378,Drive,Thriller,7.8
+379,The Place Beyond the Pines,Thriller,7.3
+380,Blue Valentine,Thriller,7.4
+381,The Girl with the Dragon Tattoo,Thriller,7.8
+382,The Social Network,Thriller,7.8
+383,Zodiac 2007,Thriller,7.7
+384,Se7en 1995,Thriller,8.6
+385,Mystic River,Thriller,7.9
+386,L.A. Confidential,Thriller,8.2
+387,Chinatown,Thriller,8.1
+388,The French Connection,Thriller,7.7
+389,The Conversation,Thriller,7.8
+390,Marathon Man,Thriller,7.4
+391,All the President's Men,Thriller,7.9
+392,The Fugitive,Thriller,7.8
+393,The Firm,Thriller,6.8
+394,A Few Good Men,Thriller,7.7
+395,The Pelican Brief,Thriller,6.6
+396,Primal Fear,Thriller,7.7
+397,Basic Instinct,Thriller,7.0
+398,Fatal Attraction,Thriller,6.9
+399,Single White Female,Thriller,6.3
+400,The Hand That Rocks the Cradle,Thriller,6.6
+401,Cape Fear,Thriller,7.3
+402,Misery,Thriller,7.8
+403,The Game,Thriller,7.7
+404,Panic Room,Thriller,6.8
+405,Flight Plan,Thriller,6.3
+406,Red Eye,Thriller,6.5
+407,Non-Stop,Thriller,6.9
+408,Unknown,Thriller,6.8
+409,Taken,Thriller,7.8
+410,Taken 2,Thriller,6.3
+411,The Manchurian Candidate,Thriller,7.0
+412,Enemy of the State,Thriller,7.3
+413,The Bourne Legacy,Thriller,6.7
+414,Salt,Thriller,6.4
+415,Atomic Blonde,Thriller,6.7
+416,Red Sparrow,Thriller,6.6
+417,Black Swan,Thriller,8.0
+418,The Black Phone,Thriller,6.9
+419,Searching,Thriller,7.6
+420,Run,Thriller,6.7
+421,Cast Away,Drama,7.8
+422,The Pursuit of Happyness,Drama,8.0
+423,A Beautiful Mind,Drama,8.2
+424,Rain Man,Drama,8.0
+425,The King's Speech,Drama,8.0
+426,12 Years a Slave,Drama,8.1
+427,The Revenant,Drama,8.0
+428,Birdman,Drama,7.7
+429,Moonlight,Drama,7.4
+430,Manchester by the Sea,Drama,7.8
+431,Three Billboards Outside Ebbing Missouri,Drama,8.1
+432,The Shape of Water,Drama,7.3
+433,Green Book,Drama,8.2
+434,Nomadland,Drama,7.3
+435,CODA,Drama,8.0
+436,The Father,Drama,8.2
+437,Sound of Metal,Drama,7.8
+438,Judas and the Black Messiah,Drama,7.5
+439,Minari,Drama,7.4
+440,Promising Young Woman,Drama,7.5
+441,Marriage Story,Drama,7.9
+442,Uncut Gems,Drama,7.4
+443,The Irishman,Drama,7.8
+444,1917,Drama,8.2
+445,Ford v Ferrari,Drama,8.1
+446,Once Upon a Time in Hollywood,Drama,7.6
+447,Little Women,Drama,7.8
+448,Knives Out,Drama,7.9
+449,Parasite 2019,Drama,8.5
+450,The Two Popes,Drama,7.6
+451,American Psycho,Thriller,7.6
+452,Se7en Original,Thriller,8.6
+453,Fight Club 1999,Drama,8.8
+454,The Departed 2006,Thriller,8.5
+455,No Country for Old Men 2007,Thriller,8.1
+456,There Will Be Blood 2007,Drama,8.1
+457,The Dark Knight 2008,Action,9.0
+458,Inglourious Basterds 2009,Action,8.3
+459,The Social Network 2010,Drama,7.8
+460,Black Swan 2010,Thriller,8.0
+461,Inception 2010,Sci-Fi,8.8
+462,The Artist,Drama,7.9
+463,Drive 2011,Thriller,7.8
+464,Django Unchained 2012,Action,8.4
+465,Silver Linings Playbook 2012,Romance,7.7
+466,12 Years a Slave 2013,Drama,8.1
+467,Gravity 2013,Sci-Fi,7.7
+468,Her 2013,Sci-Fi,8.0
+469,The Wolf of Wall Street 2013,Comedy,8.2
+470,Boyhood,Drama,7.9
+471,Birdman 2014,Drama,7.7
+472,Whiplash 2014,Drama,8.5
+473,The Grand Budapest Hotel 2014,Comedy,8.1
+474,Interstellar 2014,Sci-Fi,8.6
+475,Mad Max Fury Road 2015,Action,8.1
+476,The Revenant 2015,Drama,8.0
+477,Spotlight,Drama,8.1
+478,Room 2015,Drama,8.1
+479,The Big Short,Comedy,7.8
+480,Arrival 2016,Sci-Fi,7.9
+481,La La Land 2016,Romance,8.0
+482,Moonlight 2016,Drama,7.4
+483,Manchester by the Sea 2016,Drama,7.8
+484,Get Out 2017,Horror,7.7
+485,Three Billboards 2017,Drama,8.1
+486,The Shape of Water 2017,Drama,7.3
+487,Lady Bird,Comedy,7.4
+488,Dunkirk,Action,7.8
+489,Black Panther,Action,7.3
+490,BlacKkKlansman,Drama,7.5
+491,A Quiet Place 2018,Horror,7.5
+492,Hereditary 2018,Horror,7.3
+493,Roma,Drama,7.7
+494,Spider-Man Into the Spider-Verse,Animation,8.4
+495,Bohemian Rhapsody,Drama,7.9
+496,Joker 2019,Drama,8.4
+497,1917 2019,Drama,8.2
+498,Parasite Best Picture,Drama,8.5
+499,Knives Out 2019,Thriller,7.9
+500,Once Upon a Time Hollywood,Comedy,7.6

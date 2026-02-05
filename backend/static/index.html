@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix - Find Your Next Favorite Movie</title>
+    <meta name="description" content="Netflix-style movie recommendation system powered by Knowledge Graphs">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">MOVIEFLIX</span>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="nav-link active">Home</a>
+                <a href="#" class="nav-link">Browse</a>
+                <a href="#" class="nav-link">My List</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Search -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Find Your Next Favorite Movie</h1>
+            <p class="hero-subtitle">Powered by Knowledge Graph Technology</p>
+
+            <!-- Search Container -->
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search for a movie..."
+                        autocomplete="off">
+                    <button id="clearBtn" class="clear-btn" hidden>
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </button>
+                </div>
+
+                <!-- Autocomplete Dropdown -->
+                <div id="autocompleteDropdown" class="autocomplete-dropdown" hidden>
+                    <div id="autocompleteList" class="autocomplete-list"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Movie Section -->
+    <section id="selectedMovieSection" class="selected-section" hidden>
+        <div class="container">
+            <div id="selectedMovie" class="selected-movie"></div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendationsSection" class="recommendations-section" hidden>
+        <div class="container">
+            <!-- Primary Recommendations -->
+            <div class="row-section">
+                <h2 class="row-title" id="rowTitle">Because you searched for <span id="movieName"></span></h2>
+                <div class="carousel-container">
+                    <button class="carousel-btn carousel-btn-left" data-direction="left">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <div id="recommendationsCarousel" class="carousel"></div>
+                    <button class="carousel-btn carousel-btn-right" data-direction="right">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Genre Section -->
+            <div id="genreSection" class="row-section">
+                <h2 class="row-title">Similar <span id="genreName"></span> Movies</h2>
+                <div class="carousel-container">
+                    <button class="carousel-btn carousel-btn-left" data-direction="left">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <div id="genreCarousel" class="carousel"></div>
+                    <button class="carousel-btn carousel-btn-right" data-direction="right">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Error Section -->
+    <section id="errorSection" class="error-section" hidden>
+        <div class="container">
+            <div class="error-card">
+                <svg class="error-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+                </svg>
+                <p id="errorMessage">Movie not found in database.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay" hidden>
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <span>Finding recommendations...</span>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built with Knowledge Graphs • Hash Tables • BFS Traversal</p>
+            <p class="footer-tech">C Engine • Python Flask • JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
